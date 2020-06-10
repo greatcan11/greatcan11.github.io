@@ -1,0 +1,247 @@
+*
+{
+    margin: 0;
+}
+
+header{
+    background-color: rgb(85, 37, 129);
+    height: 13vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.main-nav li{
+    display: inline-block;
+}
+
+.main-nav li a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5px 25px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15 px;
+    text-transform: uppercase;
+}
+
+.active{
+    border: 1px solid white;
+}
+
+.main-nav li a:hover{
+    /* border: 2px solid rgb(202, 140, 59);    */
+    border: 2px solid rgb(252, 59, 210);     
+}
+
+h1{
+    float: left;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 20px 25px;
+    font-family: "Roboto", sans-serif;
+    font-size: 40 px;
+    font-weight: 100;
+}
+
+body{
+    font-family: monospace;
+}
+
+.row{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main-title{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 250px;
+}
+
+h3{
+    color:rgb(85, 37, 129);
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 25px; 
+    margin-left: 50px;
+}
+
+h4{
+    margin-left: 60px;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h5{
+    color: rgb(252, 59, 210);
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+label{
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.description{
+    margin-bottom: 25px;
+    margin-left: 50px;
+    margin-right: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.profile_pic{
+    border-radius: 50%;
+    float: left;
+    margin-top: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+.about{
+    margin-right: 600px;
+}
+
+.bromo_pic{
+    width: 500px;
+    height: 350px;
+    float: right;
+    margin-right: 50px;
+}
+
+figure {
+    margin: 20px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 80px;
+  }
+  
+  figure img {
+    width: 600px;
+    height: 400px;
+  }
+
+.fbla{
+    width: 450px;
+    height: 190px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 60px;
+    padding: 10px;
+}
+
+.highschool{
+    display: grid;
+    width: 650px;
+}
+
+.leadership{
+    display: grid;
+    grid-template-columns: 70% 1fr;
+}
+
+.swe{
+    width: 400px;
+    height: 500px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.experience{
+    display: grid;
+    grid-template-columns: 60% 1fr;
+}
+
+.robot{
+    width: 300px;
+    height: 500px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.courses{
+    list-style-type: circle;
+}
+
+p{
+    margin-bottom: 25px;
+    margin-left: 60px;
+    margin-right: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.summary{
+    color: black;
+    margin-bottom: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.feedback {
+    color: rgb(252, 59, 210);
+}
+
+.hidden {
+    display: none;
+  }
+
+.grp_label_input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+  
+.grp_label_input :first-child {
+  width: 35%;
+  text-align: right;
+  margin-right: 4px;
+}
+
+#contact_form * {
+  margin-bottom: 4px;
+}
+  
+#contact_form{
+    width: 600px;
+}
+
+#submit {
+    margin-top: 10px;
+}
+
+footer{
+    background-color: rgb(85, 37, 129);
+    height: 5vh;
+    background-position: center;  
+    margin-bottom: 0;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
